@@ -87,7 +87,7 @@ services:
     depends_on:
       - msg-archive-server
       - redis
-      - mysql
+      # - mysql
     networks:
       - openscrm
     extra_hosts:
@@ -111,7 +111,7 @@ services:
         /srv/msg-arch-server
     depends_on:
       - redis
-      - mysql
+      # - mysql
     networks:
       - openscrm
     extra_hosts:
