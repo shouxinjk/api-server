@@ -26,7 +26,7 @@ services:
     environment:
       TZ: Asia/Shanghai
       # mysql root 密码
-      MYSQL_ROOT_PASSWORD: NWVj5IowIGk0dZlBCSF
+      MYSQL_ROOT_PASSWORD: openscrmdemo
       # 初始化数据库(后续的初始化sql会在这个库执行)
       MYSQL_DATABASE: open_scrm_demo
     security_opt:
